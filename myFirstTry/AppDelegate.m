@@ -7,17 +7,48 @@
 //
 
 #import "AppDelegate.h"
+#import "Weather.h"
+#import "Forecast.h"
+#import "Client.h"
+#import "ForecastTimeViewController.h"
 
 @interface AppDelegate ()
 
 @end
 
 @implementation AppDelegate
+{
+    UIWindow *_window;
+    ForecastTimeViewController* _timeControl;
+}
+
+- (void) dealloc
+{
+    [_timeControl release];
+    [_window release];
+    [super dealloc];
+}
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    return YES;
+    Client* myClient = [[Client alloc] init];
+    [myClient run];
+    _window = [ [ UIWindow alloc ] initWithFrame: [ [ UIScreen mainScreen ] bounds ] ];
+    _window.backgroundColor = [ UIColor whiteColor ];
+    
+    _timeControl = [ [ ForecastTimeViewController alloc ] initWithNibName: @"TimeViewController" bundle: [ NSBundle mainBundle ] ];
+    _window.rootViewController = _timeControl;
+    [ _window makeKeyAndVisible ];
+    
+    /*
+     RSS* rss = [ RSS sample ];
+     NSLog( @"%@", [ rss description ] );
+     */
+    
+   // [ RSS loadRssFromFile: @"file.sample.txt" target: self selector: @selector( rssLoaded: ) ];
+   // [ RSS loadRssFromFile: [ [ NSBundle mainBundle ] pathForResource: @"rss" ofType: @"xml" ] thenCallback: self ];
+        return YES;
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {

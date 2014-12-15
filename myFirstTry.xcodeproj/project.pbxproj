@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C098D411A2F47B000257853 /* ForecastTimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C098D401A2F47B000257853 /* ForecastTimeViewController.m */; };
+		4C5EAB051A2619DA0004C3C1 /* XMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5EAB041A2619DA0004C3C1 /* XMLParser.m */; };
+		4C5EAB071A261D970004C3C1 /* forecastSource.xml in Resources */ = {isa = PBXBuildFile; fileRef = 4C5EAB061A261D970004C3C1 /* forecastSource.xml */; };
+		4C66320B1A09CC5500508374 /* Client.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C66320A1A09CC5500508374 /* Client.m */; };
+		4C7B2AE81A3E1C6C00F6B3B4 /* ForecastTimeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C7B2AE71A3E1C6C00F6B3B4 /* ForecastTimeViewController.xib */; };
 		4CDF708C1A040A35003F77AA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CDF708B1A040A35003F77AA /* main.m */; };
 		4CDF708F1A040A35003F77AA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CDF708E1A040A35003F77AA /* AppDelegate.m */; };
 		4CDF70921A040A35003F77AA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CDF70911A040A35003F77AA /* ViewController.m */; };
@@ -14,6 +19,10 @@
 		4CDF70971A040A35003F77AA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CDF70961A040A35003F77AA /* Images.xcassets */; };
 		4CDF709A1A040A35003F77AA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CDF70981A040A35003F77AA /* LaunchScreen.xib */; };
 		4CDF70A61A040A35003F77AA /* myFirstTryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CDF70A51A040A35003F77AA /* myFirstTryTests.m */; };
+		4CDF70B11A040B00003F77AA /* Weather.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CDF70B01A040B00003F77AA /* Weather.m */; };
+		4CDF70B41A040B18003F77AA /* Time.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CDF70B31A040B18003F77AA /* Time.m */; };
+		4CDF70B71A040B2D003F77AA /* Forecast.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CDF70B61A040B2D003F77AA /* Forecast.m */; };
+		4CDF70BA1A04101D003F77AA /* Downfall.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CDF70B91A04101D003F77AA /* Downfall.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +36,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4C098D3F1A2F47B000257853 /* ForecastTimeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForecastTimeViewController.h; sourceTree = "<group>"; };
+		4C098D401A2F47B000257853 /* ForecastTimeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForecastTimeViewController.m; sourceTree = "<group>"; };
+		4C5EAB041A2619DA0004C3C1 /* XMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLParser.m; sourceTree = "<group>"; };
+		4C5EAB061A261D970004C3C1 /* forecastSource.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = forecastSource.xml; sourceTree = "<group>"; };
+		4C6632091A09CC5500508374 /* Client.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Client.h; sourceTree = "<group>"; };
+		4C66320A1A09CC5500508374 /* Client.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Client.m; sourceTree = "<group>"; usesTabs = 1; };
+		4C7B2AE71A3E1C6C00F6B3B4 /* ForecastTimeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ForecastTimeViewController.xib; sourceTree = "<group>"; };
+		4CABCE2F1A18C134000AF51E /* XMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLParser.h; sourceTree = "<group>"; usesTabs = 0; };
 		4CDF70861A040A35003F77AA /* myFirstTry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myFirstTry.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CDF708A1A040A35003F77AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4CDF708B1A040A35003F77AA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +57,14 @@
 		4CDF709F1A040A35003F77AA /* myFirstTryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myFirstTryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CDF70A41A040A35003F77AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4CDF70A51A040A35003F77AA /* myFirstTryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = myFirstTryTests.m; sourceTree = "<group>"; };
+		4CDF70AF1A040B00003F77AA /* Weather.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Weather.h; sourceTree = "<group>"; };
+		4CDF70B01A040B00003F77AA /* Weather.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Weather.m; sourceTree = "<group>"; };
+		4CDF70B21A040B18003F77AA /* Time.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Time.h; sourceTree = "<group>"; };
+		4CDF70B31A040B18003F77AA /* Time.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Time.m; sourceTree = "<group>"; };
+		4CDF70B51A040B2D003F77AA /* Forecast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Forecast.h; sourceTree = "<group>"; };
+		4CDF70B61A040B2D003F77AA /* Forecast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Forecast.m; sourceTree = "<group>"; };
+		4CDF70B81A04101D003F77AA /* Downfall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Downfall.h; sourceTree = "<group>"; };
+		4CDF70B91A04101D003F77AA /* Downfall.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Downfall.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +85,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4C098D3D1A2F455900257853 /* GUI */ = {
+			isa = PBXGroup;
+			children = (
+				4C098D3F1A2F47B000257853 /* ForecastTimeViewController.h */,
+				4C098D401A2F47B000257853 /* ForecastTimeViewController.m */,
+				4C7B2AE71A3E1C6C00F6B3B4 /* ForecastTimeViewController.xib */,
+			);
+			name = GUI;
+			sourceTree = "<group>";
+		};
+		4C098D3E1A2F457C00257853 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4CDF70B91A04101D003F77AA /* Downfall.m */,
+				4CDF70B81A04101D003F77AA /* Downfall.h */,
+				4CDF70B61A040B2D003F77AA /* Forecast.m */,
+				4CDF70B51A040B2D003F77AA /* Forecast.h */,
+				4CDF70B31A040B18003F77AA /* Time.m */,
+				4CDF70B21A040B18003F77AA /* Time.h */,
+				4C66320A1A09CC5500508374 /* Client.m */,
+				4C6632091A09CC5500508374 /* Client.h */,
+				4C5EAB061A261D970004C3C1 /* forecastSource.xml */,
+				4C5EAB041A2619DA0004C3C1 /* XMLParser.m */,
+				4CABCE2F1A18C134000AF51E /* XMLParser.h */,
+				4CDF70B01A040B00003F77AA /* Weather.m */,
+				4CDF70AF1A040B00003F77AA /* Weather.h */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		4CDF707D1A040A35003F77AA = {
 			isa = PBXGroup;
 			children = (
@@ -89,6 +144,8 @@
 				4CDF70961A040A35003F77AA /* Images.xcassets */,
 				4CDF70981A040A35003F77AA /* LaunchScreen.xib */,
 				4CDF70891A040A35003F77AA /* Supporting Files */,
+				4C098D3D1A2F455900257853 /* GUI */,
+				4C098D3E1A2F457C00257853 /* Model */,
 			);
 			path = myFirstTry;
 			sourceTree = "<group>";
@@ -199,7 +256,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C7B2AE81A3E1C6C00F6B3B4 /* ForecastTimeViewController.xib in Resources */,
 				4CDF70951A040A35003F77AA /* Main.storyboard in Resources */,
+				4C5EAB071A261D970004C3C1 /* forecastSource.xml in Resources */,
 				4CDF709A1A040A35003F77AA /* LaunchScreen.xib in Resources */,
 				4CDF70971A040A35003F77AA /* Images.xcassets in Resources */,
 			);
@@ -219,7 +278,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C5EAB051A2619DA0004C3C1 /* XMLParser.m in Sources */,
+				4CDF70BA1A04101D003F77AA /* Downfall.m in Sources */,
+				4CDF70B71A040B2D003F77AA /* Forecast.m in Sources */,
+				4CDF70B41A040B18003F77AA /* Time.m in Sources */,
+				4CDF70B11A040B00003F77AA /* Weather.m in Sources */,
+				4C66320B1A09CC5500508374 /* Client.m in Sources */,
 				4CDF70921A040A35003F77AA /* ViewController.m in Sources */,
+				4C098D411A2F47B000257853 /* ForecastTimeViewController.m in Sources */,
 				4CDF708F1A040A35003F77AA /* AppDelegate.m in Sources */,
 				4CDF708C1A040A35003F77AA /* main.m in Sources */,
 			);
@@ -345,6 +411,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				INFOPLIST_FILE = myFirstTry/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -355,6 +422,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				INFOPLIST_FILE = myFirstTry/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -414,6 +482,7 @@
 				4CDF70AB1A040A35003F77AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4CDF70AC1A040A35003F77AA /* Build configuration list for PBXNativeTarget "myFirstTryTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +491,7 @@
 				4CDF70AE1A040A35003F77AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

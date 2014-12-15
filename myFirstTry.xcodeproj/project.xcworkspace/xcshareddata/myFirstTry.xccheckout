@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>17ECE0AE-1625-4873-8909-88840B0C7FDB</string>
+	<key>IDESourceControlProjectName</key>
+	<string>myFirstTry</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>D6EF20076296285D150E4AFEC0107F16EB2582B4</key>
+		<string>https://github.com/melomasha/myFirstTry.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>myFirstTry.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>D6EF20076296285D150E4AFEC0107F16EB2582B4</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/melomasha/myFirstTry.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>D6EF20076296285D150E4AFEC0107F16EB2582B4</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D6EF20076296285D150E4AFEC0107F16EB2582B4</string>
+			<key>IDESourceControlWCCName</key>
+			<string>myFirstTry</string>
+		</dict>
+	</array>
+</dict>
+</plist>
