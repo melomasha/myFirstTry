@@ -11,7 +11,6 @@
 		4C5EAB051A2619DA0004C3C1 /* XMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5EAB041A2619DA0004C3C1 /* XMLParser.m */; };
 		4C5EAB071A261D970004C3C1 /* forecastSource.xml in Resources */ = {isa = PBXBuildFile; fileRef = 4C5EAB061A261D970004C3C1 /* forecastSource.xml */; };
 		4C66320B1A09CC5500508374 /* Client.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C66320A1A09CC5500508374 /* Client.m */; };
-		4C7B2AEC1A40801300F6B3B4 /* TimeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C7B2AEB1A40801300F6B3B4 /* TimeView.xib */; };
 		4CDF708C1A040A35003F77AA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CDF708B1A040A35003F77AA /* main.m */; };
 		4CDF708F1A040A35003F77AA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CDF708E1A040A35003F77AA /* AppDelegate.m */; };
 		4CDF70921A040A35003F77AA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CDF70911A040A35003F77AA /* ViewController.m */; };
@@ -23,6 +22,7 @@
 		4CDF70B41A040B18003F77AA /* Time.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CDF70B31A040B18003F77AA /* Time.m */; };
 		4CDF70B71A040B2D003F77AA /* Forecast.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CDF70B61A040B2D003F77AA /* Forecast.m */; };
 		4CDF70BA1A04101D003F77AA /* Downfall.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CDF70B91A04101D003F77AA /* Downfall.m */; };
+		94196CD11A40AC76002A19B0 /* ForecastTimeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94196CD01A40AC76002A19B0 /* ForecastTimeViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,7 +42,6 @@
 		4C5EAB061A261D970004C3C1 /* forecastSource.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = forecastSource.xml; sourceTree = "<group>"; };
 		4C6632091A09CC5500508374 /* Client.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Client.h; sourceTree = "<group>"; };
 		4C66320A1A09CC5500508374 /* Client.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Client.m; sourceTree = "<group>"; usesTabs = 1; };
-		4C7B2AEB1A40801300F6B3B4 /* TimeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TimeView.xib; sourceTree = "<group>"; };
 		4CABCE2F1A18C134000AF51E /* XMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLParser.h; sourceTree = "<group>"; usesTabs = 0; };
 		4CDF70861A040A35003F77AA /* myFirstTry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myFirstTry.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CDF708A1A040A35003F77AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -65,6 +64,7 @@
 		4CDF70B61A040B2D003F77AA /* Forecast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Forecast.m; sourceTree = "<group>"; };
 		4CDF70B81A04101D003F77AA /* Downfall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Downfall.h; sourceTree = "<group>"; };
 		4CDF70B91A04101D003F77AA /* Downfall.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Downfall.m; sourceTree = "<group>"; };
+		94196CD01A40AC76002A19B0 /* ForecastTimeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ForecastTimeViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,7 +90,7 @@
 			children = (
 				4C098D3F1A2F47B000257853 /* ForecastTimeViewController.h */,
 				4C098D401A2F47B000257853 /* ForecastTimeViewController.m */,
-				4C7B2AEB1A40801300F6B3B4 /* TimeView.xib */,
+				94196CD01A40AC76002A19B0 /* ForecastTimeViewController.xib */,
 			);
 			name = GUI;
 			sourceTree = "<group>";
@@ -256,7 +256,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C7B2AEC1A40801300F6B3B4 /* TimeView.xib in Resources */,
+				94196CD11A40AC76002A19B0 /* ForecastTimeViewController.xib in Resources */,
 				4CDF70951A040A35003F77AA /* Main.storyboard in Resources */,
 				4C5EAB071A261D970004C3C1 /* forecastSource.xml in Resources */,
 				4CDF709A1A040A35003F77AA /* LaunchScreen.xib in Resources */,
