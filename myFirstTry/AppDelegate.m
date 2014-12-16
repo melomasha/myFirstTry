@@ -37,18 +37,10 @@
     _window = [ [ UIWindow alloc ] initWithFrame: [ [ UIScreen mainScreen ] bounds ] ];
     _window.backgroundColor = [ UIColor whiteColor ];
     
-    _timeControl = [ [ ForecastTimeViewController alloc ] initWithNibName: @"TimeViewController" bundle: [ NSBundle mainBundle ] ];
+    _timeControl = [ [ ForecastTimeViewController alloc ] initWithNibName: @"TimeView" bundle: [ NSBundle mainBundle ] ];
     _window.rootViewController = _timeControl;
     [ _window makeKeyAndVisible ];
-    
-    /*
-     RSS* rss = [ RSS sample ];
-     NSLog( @"%@", [ rss description ] );
-     */
-    
-   // [ RSS loadRssFromFile: @"file.sample.txt" target: self selector: @selector( rssLoaded: ) ];
-   // [ RSS loadRssFromFile: [ [ NSBundle mainBundle ] pathForResource: @"rss" ofType: @"xml" ] thenCallback: self ];
-        return YES;
+    return YES;
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {
