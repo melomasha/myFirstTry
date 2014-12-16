@@ -37,7 +37,7 @@
     _window = [ [ UIWindow alloc ] initWithFrame: [ [ UIScreen mainScreen ] bounds ] ];
     _window.backgroundColor = [ UIColor whiteColor ];
     
-    _timeControl = [ [ ForecastTimeViewController alloc ] initWithNibName: @"TimeView" bundle: [ NSBundle mainBundle ] ];
+    _timeControl = [ [ ForecastTimeViewController alloc ] initWithNibName: @"ForecastTimeViewController" bundle: [ NSBundle mainBundle ] ];
     _window.rootViewController = _timeControl;
     [ _window makeKeyAndVisible ];
     return YES;
