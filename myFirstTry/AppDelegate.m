@@ -35,7 +35,7 @@
     Client* myClient = [[Client alloc] init];
     [myClient run];
     _window = [ [ UIWindow alloc ] initWithFrame: [ [ UIScreen mainScreen ] bounds ] ];
-    _window.backgroundColor = [ UIColor whiteColor ];
+    _window.backgroundColor = [ UIColor redColor ];
     
     _timeControl = [ [ ForecastTimeViewController alloc ] initWithNibName: @"ForecastTimeViewController" bundle: [ NSBundle mainBundle ] ];
     _window.rootViewController = _timeControl;

@@ -15,12 +15,14 @@
 {
     UIImageView* _imageView;
     UILabel* _titleView;
+    UITextField* _textView;
     Forecast* itForecast;
     NSMutableArray* itTimes;
 }
 
 @synthesize ImageView = _imageView;
 @synthesize TitleView = _titleView;
+@synthesize TextView = _textView;
 //@synthesize DescriptionView = _descriptionView;
 
 -( id ) initWithNibName: ( NSString* )nibNameOrNil bundle: ( NSBundle* )nibBundleOrNil
@@ -58,12 +60,13 @@
     itForecast = [ myForecast copy];
     itTimes = [myForecast.times copy];
     //Time* myTime = [itTimes[1] retain];
-    NSString* imageURL = [NSString stringWithFormat:@"http://openweathermap.org/weather-conditions/img/w/%@", ((Time*)[itTimes objectAtIndex:1]).symbol];
+    NSString* imageURL = [NSString stringWithFormat:@"http://openweathermap.org/weather-conditions/img/w/%@.png", ((Time*)[itTimes objectAtIndex:1]).symbol];
     NSURL* images = [[NSURL alloc] initWithString:imageURL];
     NSData *imageData = [[NSData alloc] initWithContentsOfURL:images];
     UIImage* image = [[UIImage alloc] initWithData:imageData];
     _imageView.image = image;
     _titleView.text = @"Yekaterinburg";
+    _textView.text = [NSString stringWithFormat:@"temperature: %@, wind destiny: %@", ((Time*)[itTimes objectAtIndex:1]).temperature, ((Time*)[itTimes objectAtIndex:1]).windDestiny];
 }
 
 @end

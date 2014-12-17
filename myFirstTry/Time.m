@@ -13,6 +13,8 @@
 @synthesize symbol = _symbol;
 @synthesize end = _end;
 @synthesize begin = _begin;
+@synthesize temperature = _temperature;
+@synthesize windDestiny = _windDestiny;
 
 -(Time*) initBegin:(NSDate*) myBegin andEnd:(NSDate*) myEnd andDownfall:(Downfall*) myFallout andWindDestiny:(NSString*) myDestiny andWindStrong:(NSNumber*) myStrong andTemper:(NSNumber*) myTemper andPressure:(NSNumber*) myPressure andWet:(NSNumber*) myWet andSymbol: (NSString*) mySymbol
 {
@@ -20,9 +22,9 @@
     _begin = [myBegin retain];
     _end = [myEnd retain];
     fallout = [myFallout copy];
-    windDestiny = [myDestiny copy];
+    _windDestiny = [myDestiny copy];
     windStrong = [myStrong retain];
-    temperature = [myTemper retain];
+    _temperature = [myTemper retain];
     pressure = [myPressure retain];
     wet = [myWet retain];
     _symbol = [mySymbol copy];

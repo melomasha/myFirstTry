@@ -15,6 +15,7 @@
 
 @property ( nonatomic, retain ) IBOutlet UIImageView* ImageView;
 @property ( nonatomic, retain ) IBOutlet UILabel* TitleView;
+@property (nonatomic, retain) IBOutlet UITextField* TextView;
 //@property ( nonatomic, retain ) IBOutlet UIWebView* DescriptionView;
 
 -( void ) setForecast: (Forecast*) myForecast;
